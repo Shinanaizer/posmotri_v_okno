@@ -57,13 +57,11 @@ ol {
   width: 711px;
   height: 386px;
   position: relative;
-  
 }
 
 .result__video {
   width: 100%;
   height: 100%;
-  position: absolute;
   inset: 0;
   object-fit: fill;
 }
@@ -93,13 +91,9 @@ ol {
 .search-form__label {
   width: fit-content;
   display: flex;
-  margin-top: px;
-  padding: 1px;
-  cursor: pointer;    
-}
-
-.search-form__label:not(:first-of-type):hover {
-  text-decoration: underline;
+  margin-top: 2px;
+  cursor: pointer;   
+  padding: 1px; 
 }
 
 .search-form__textfield {
@@ -139,7 +133,11 @@ ol {
   width: 212px;
   display: flex;
   justify-content: space-between;
-  }
+}
+
+.search-form__checkbox-list .search-form__label:hover {
+  text-decoration: underline;
+}
 
 .search-form__pseudo-checkbox {
   display: block;
@@ -261,7 +259,6 @@ ol {
   color:#fff;
   display: block;
   margin: 1px;
-  
 }
 
 .content__card-link:active {
