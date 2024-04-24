@@ -215,7 +215,7 @@ ol {
   position: relative;
   margin-top: 17px;
   min-width: 399px;
-  max-height: 299px;
+  height: 299px;
   overflow: auto;
 }
 
